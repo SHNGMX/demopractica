@@ -204,5 +204,40 @@ namespace demopractica
             counter = 0;
             GetData(counter);
         }
+
+        private void одинСлойToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            dataBase.openConnection();
+
+
+        }
+
+        private void дваСлояToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            dataBase.openConnection();
+
+
+        }
+
+        private void триСлояToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            dataBase.openConnection();
+
+
+        }
+
+        private void детскаяToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            dataBase.openConnection();
+
+
+        }
+
+        private void суперМягкаяToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            dataBase.openConnection();
+
+
+        }
     }
 }

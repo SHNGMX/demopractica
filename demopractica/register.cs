@@ -73,5 +73,10 @@ SqlCommand command = new SqlCommand(querystring, dataBase.getConnection());
                 return false;
             }
         }
+
+        private void register_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
